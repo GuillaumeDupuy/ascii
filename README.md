@@ -4,7 +4,13 @@ A project for hosting curl-based animations, all in one place, and a follow up t
 
 Any animations you want to add are welcome! 🎉
 
-Try it out in your terminal:
+To see the current list of animations, try it out in your terminal:
+
+```bash
+curl https://ascii-bash.onrender.com/list
+```
+
+And to see a specific animation, try:
 
 ```bash
 curl https://ascii-bash.onrender.com/parrot
@@ -14,6 +20,11 @@ curl https://ascii-bash.onrender.com/parrot
 To run the server locally on port `8080`, run:
 ```bash
 go run main.go
+```
+
+And try it out in your terminal:
+```bash
+curl http://localhost:8080/parrot
 ```
 
 ## Adding frames
