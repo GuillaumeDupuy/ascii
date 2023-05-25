@@ -7,7 +7,7 @@ Any animations you want to add are welcome! 🎉
 Try it out in your terminal:
 
 ```bash
-curl render/parrot
+curl https://ascii-bash.onrender.com/parrot
 ```
 
 ## Running locally
