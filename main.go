@@ -122,7 +122,7 @@ func main() {
 		WriteTimeout: 0,
 	}
 
-	glog.Infof("http://localhost:8080/")
+	// glog.Infof("http://localhost:8080/")
 	glog.Infof("Serving...")
 	glog.Fatal(srv.ListenAndServe())	
 }
