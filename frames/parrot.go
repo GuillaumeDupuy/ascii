@@ -3,7 +3,7 @@ package frames
 var Parrot = DefaultFrameType(parrotFrames)
 
 var parrotFrames = []string{
-`                        .cccc;;cc;';c.
+  colorRed +`                        .cccc;;cc;';c.
                       .,:dkdc:;;:c:,:d:.
                      .loc'.,cc::::::,..,:.
                    .cl;....;dkdccc::,...c;
@@ -22,7 +22,7 @@ var parrotFrames = []string{
 ,dx:..;lllllllllllllllllllllllllllllllloc'...
 cNO;........................................`,
 
-	`                .ckx;'........':c.
+	colorBlue+ `                .ckx;'........':c.
              .,:c:c:::oxxocoo::::,',.
             .odc'..:lkkoolllllo;..;d,
             ;c..:o:..;:..',;'.......;.
@@ -41,7 +41,7 @@ cNO;........................................`,
 :0o...:dxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxo,.:,
 cNo........................................;'`,
 
-	`            .cc;.  ...  .;c.
+	colorYellow + `            .cc;.  ...  .;c.
          .,,cc:cc:lxxxl:ccc:;,.
         .lo;...lKKklllookl..cO;
       .cl;.,;'.okl;...'.;,..';:.
@@ -60,7 +60,7 @@ cNo........................................;'`,
   co..:dddddddddddddddddddddddddddddddddl:;''::.
   co..........................................."`,
 
-	`           .ccccccc.
+	colorMagenta + `           .ccccccc.
       .,,,;cooolccol;;,,.
      .dOx;..;lllll;..;xOd.
    .cdo,',loOXXXXXkll;';odc.
@@ -79,7 +79,7 @@ cNo..lXXXXXXXXXOolkXXXXXXXXXkl;..;:.;.
   ';.:xxxxxocccoxxxxxxxxxxxxxxxxxxxxxxl::'.';;.
   ';........................................;l'`,
 
-	`
+	colorGreen + `
         .;:;;,.,;;::,.
      .;':;........'co:.
    .clc;'':cllllc::,.':c.
@@ -98,7 +98,7 @@ o..,l;'''''';dkkkkkkkkkkkkkkkkkkkkdlc,..;lc.
 o..;lc;;;;;;,,;clllllllllllllllllllllc'..,:c.
 o..........................................;'`,
 
-	`
+	colorCyan + `
            .,,,,,,,,,.
          .ckKxodooxOOdcc.
       .cclooc'....';;cool.
@@ -117,7 +117,7 @@ KOc,l;''''''';lldkkkkkkkkkkkkkkkkkc..;lc.
 xx:':;;;;,.,,...,;;cllllllllllllllc;'.;oo,
 cNo.....................................oc`,
 
-	`
+	colorOrange +`
 
                    .ccccccc.
                .ccckNKOOOOkdcc.
@@ -136,7 +136,7 @@ cNo.....................................oc`,
 ,dl,.'cooc:::,....,::coooooooooooc'.c:
 cNo.................................oc`,
 
-	`
+	colorPink + `
 
 
                         .cccccccc.
@@ -155,7 +155,7 @@ cNo.................................oc`,
 ,do:'..,:llllll:;;;;;;,..,;:lllllllll;..oc
 cNo.....................................oc`,
 
-	`
+	colorPurple + `
 
                               .ccccc.
                          .cc;'coooxkl;.
@@ -174,7 +174,7 @@ cNo.....................................oc`,
 occ'..',:cccccccccccc:;;;;;;;;:ccccccccc,.'c,
 Ol;......................................;l'`,
 
-	`
+	colorBrown + `
                               ,ddoodd,
                          .cc' ,ooccoo,'cc.
                       .ccldo;....,,...;oxdc.

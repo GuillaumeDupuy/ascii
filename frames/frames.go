@@ -40,3 +40,16 @@ var FrameMap = map[string]FrameType{
 	"batman":          Batman,
 	"fuck":            Fuck,
 }
+
+const colorRed = "\033[1;31m"
+const colorGreen = "\033[1;32m"
+const colorYellow = "\033[1;33m"
+const colorBlue = "\033[1;34m"
+const colorMagenta = "\033[1;35m"
+const colorCyan = "\033[1;36m"
+const colorWhite = "\033[1;37m"
+const colorReset = "\033[0m"
+const colorOrange = "\033[38;5;208m"
+const colorPink = "\033[38;5;206m"
+const colorPurple = "\033[38;5;141m"
+const colorBrown = "\033[38;5;130m"

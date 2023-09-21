@@ -4,7 +4,7 @@ package frames
 var Popcat = DefaultFrameType(PopcatFrames)
 
 var PopcatFrames = []string{
-	`
+	colorBlue + `
                                                                        
                                                                        
                                                 ;                      
@@ -115,4 +115,5 @@ var PopcatFrames = []string{
          8 8@88888GGCCCCCCCCCCCCLLLLLLLLLLLLLffffffffLL f              
          @ 8888880CCCCCCCCCLLLLLLLLLfffffffffttttttttfL ;              
 `,
+colorReset + ``,
 }
